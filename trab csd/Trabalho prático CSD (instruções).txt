@@ -1,0 +1,12 @@
+Cria um avariável chmada 'entrada' para receber o valor da quantidade de carros em cada rua.
+Cria variável 'ruaA', 'ruaB' e 'ruaC' para receber os valores da quantidade de carros de cada rua respectivamente.
+Cria a variável 'sinal' que servirá para dizer qual rua terá o sinal aberto.
+
+Condições para o sinal seguindo as propriedades escritas na questão:
+	Se não há carros em nenhuma das ruas -> sinal: Rua A;
+	Se há carros em todas as ruas os mesmo tempo -> sinal: Rua A;
+	Se há carros na Rua A e não há na Rua C -> sinal: Rua A;
+	Se há carros na Rua B e não há na Rua A -> sinal: Rua B;
+	Se há carros na Rua C e não há na rua B -> sinal: Rua C;
+
+Imprime o valor da varável 'sinal'.
